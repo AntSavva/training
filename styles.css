@@ -99,4 +99,122 @@
   line-height: 28px;
   display: block;
 }
+
+.services .services__inner {
+  display: -ms-grid;
+  display: grid;
+}
+
+.about-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 40px;
+     -moz-column-gap: 40px;
+          column-gap: 40px;
+  padding: 140px 0px 80px 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.about-section__text {
+  font-size: 18px;
+  line-height: 23px;
+  width: 580px;
+}
+
+.services__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 40px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.block {
+  width: 580px;
+  height: 310px;
+  border-radius: 45px;
+  border: 1px solid black;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 10% 1fr;
+  grid-template-columns: repeat(2, 1fr);
+  -webkit-column-gap: 10%;
+     -moz-column-gap: 10%;
+          column-gap: 10%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 50px;
+}
+.block .block__texts {
+  display: -ms-grid;
+  display: grid;
+  row-gap: 93px;
+}
+.block--white {
+  background-color: #F3F3F3;
+}
+.block--green {
+  background-color: #B9FF66;
+}
+.block--black {
+  background-color: #191A23;
+}
+.block__header {
+  row-gap: 1px;
+}
+.block__button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 40px;
+     -moz-column-gap: 40px;
+          column-gap: 40px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.block__button--white {
+  color: white;
+}
+.block__button--black {
+  color: black;
+}
+.block .block__link {
+  font-size: 28px;
+  line-height: 28px;
+}
+.block .block__link--white {
+  color: white;
+}
+.block .block__link--black {
+  color: black;
+}
+
+.text-border {
+  padding: 7px;
+  border-radius: 7px;
+  font-size: 40px;
+  display: inline;
+}
+.text-border--green {
+  background-color: #B9FF66;
+}
+.text-border--white {
+  background-color: #ffffff;
+}
+
+.image-link {
+  width: 41px;
+}
+
+.block__image {
+  width: 100%;
+}
 /*# sourceMappingURL=styles.css.map */
